@@ -42,3 +42,5 @@
     },false)
     
     })(); 
+
+    console.log('Siema Heniu!')
