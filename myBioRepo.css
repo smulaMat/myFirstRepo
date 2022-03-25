@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  background: linear-gradient(45deg, white, green 69%);
+  background: linear-gradient( 0deg, white, green 69%);
   font-family: "Spartan", sans-serif;
 }
 
