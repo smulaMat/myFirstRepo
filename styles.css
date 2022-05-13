@@ -9,7 +9,7 @@ body {
 
 .navbar {
   width: 100%;
-  margin: -10px auto 5px;
+  margin: 0 auto 5px auto;
   padding: 10px 0px;
   display: flex;
   background-color: #ffffff;
@@ -30,16 +30,21 @@ body {
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
 } 
 
+.boutMe {
+  margin-top: 50px;
+}
+
 .mainContent, #container {
   width: 80%;
   margin: 30px auto;
-  padding: 5px;
+  padding: 10px;
   background-color: #ffffff;
   border-radius: 8px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* position: static; */
+  flex-wrap: wrap;
+  
 }
 
 a {
@@ -149,3 +154,4 @@ footer p {
   justify-content: center;
   align-content: center;
 }
+
